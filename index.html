@@ -1,13 +1,27 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>MP</title>
+	<title>MP2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Libre+Baskerville|Oswald" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="jquery-3.2.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Fauna+One|Quattrocento" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href='styles.css'>
+	<script src='jquery-3.2.1.min.js'></script>
 	<script src="script.js"></script>
 </head>
-<body></body>
+<body>
+<header>
+	<div id="headerwrapper">
+		<img class="navbuttons" id="homebtn" src="resources/home.png" onclick="var x = prompt('Title'); var y = prompt('Author'); createThumbnail(x, y)">
+		<img class="navbuttons" id="searchbtn" src="resources/search.png" onclick="searchPopup()">
+		<img class="navbuttons" id="uploadbtn" src="resources/upload.png" onclick="uploadPopup()">
+		<img class="navbuttons" id="profilebtn" src="resources/profile.png">
+		<img class="navbuttons" id="logoutbtn" src="resources/logout.png">
+	</div>
+</header>
+
+<div id="feed">
+
+</div>
+
+</body>
 </html>
